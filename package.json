@@ -1,0 +1,14 @@
+{
+  "name": "fertility-ivf-clinic-operations-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clinic operations for IVF cycles, stimulation protocols, embryology lab workflows, patient finance, and regulatory documentation.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

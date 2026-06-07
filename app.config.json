@@ -1,0 +1,145 @@
+{
+  "slug": "fertility-ivf-clinic-operations-suite",
+  "title": "Fertility IVF Clinic Operations Suite",
+  "buyer": "Fertility clinics, IVF networks, reproductive endocrinology practices",
+  "description": "Clinic operations for IVF cycles, stimulation protocols, embryology lab workflows, patient finance, and regulatory documentation.",
+  "modules": [
+    {
+      "id": "cycle-management",
+      "table": "cycleManagement",
+      "label": "Cycle Management",
+      "description": "Cycle Management workspace for Fertility IVF Clinic Operations Suite.",
+      "subfeatures": [
+        "Stimulation plans",
+        "Cycle milestones",
+        "Cancellation risk"
+      ],
+      "prefix": "CM",
+      "seedValues": [
+        "Stimulation plans",
+        "Cycle milestones",
+        "Cancellation risk"
+      ]
+    },
+    {
+      "id": "embryology-lab",
+      "table": "embryologyLab",
+      "label": "Embryology Lab",
+      "description": "Embryology Lab workspace for Fertility IVF Clinic Operations Suite.",
+      "subfeatures": [
+        "Specimen tracking",
+        "Embryo grading",
+        "Cryostorage"
+      ],
+      "prefix": "EL",
+      "seedValues": [
+        "Specimen tracking",
+        "Embryo grading",
+        "Cryostorage"
+      ]
+    },
+    {
+      "id": "patient-finance",
+      "table": "patientFinance",
+      "label": "Patient Finance",
+      "description": "Patient Finance workspace for Fertility IVF Clinic Operations Suite.",
+      "subfeatures": [
+        "Benefits verification",
+        "Self-pay packages",
+        "Refund tracking"
+      ],
+      "prefix": "PF",
+      "seedValues": [
+        "Benefits verification",
+        "Self-pay packages",
+        "Refund tracking"
+      ]
+    },
+    {
+      "id": "medication-protocols",
+      "table": "medicationProtocols",
+      "label": "Medication Protocols",
+      "description": "Medication Protocols workspace for Fertility IVF Clinic Operations Suite.",
+      "subfeatures": [
+        "Dose schedules",
+        "Prior authorization",
+        "Adherence checks"
+      ],
+      "prefix": "MP",
+      "seedValues": [
+        "Dose schedules",
+        "Prior authorization",
+        "Adherence checks"
+      ]
+    },
+    {
+      "id": "appointments",
+      "table": "appointments",
+      "label": "Appointments",
+      "description": "Appointments workspace for Fertility IVF Clinic Operations Suite.",
+      "subfeatures": [
+        "Ultrasound monitoring",
+        "Retrieval schedule",
+        "Transfer schedule"
+      ],
+      "prefix": "A",
+      "seedValues": [
+        "Ultrasound monitoring",
+        "Retrieval schedule",
+        "Transfer schedule"
+      ]
+    },
+    {
+      "id": "consents",
+      "table": "consents",
+      "label": "Consents",
+      "description": "Consents workspace for Fertility IVF Clinic Operations Suite.",
+      "subfeatures": [
+        "Treatment consent",
+        "Genetic testing consent",
+        "Storage renewals"
+      ],
+      "prefix": "C",
+      "seedValues": [
+        "Treatment consent",
+        "Genetic testing consent",
+        "Storage renewals"
+      ]
+    },
+    {
+      "id": "quality-compliance",
+      "table": "qualityCompliance",
+      "label": "Quality Compliance",
+      "description": "Quality Compliance workspace for Fertility IVF Clinic Operations Suite.",
+      "subfeatures": [
+        "Lab QA",
+        "Incident review",
+        "Regulatory logs"
+      ],
+      "prefix": "QC",
+      "seedValues": [
+        "Lab QA",
+        "Incident review",
+        "Regulatory logs"
+      ]
+    },
+    {
+      "id": "reports",
+      "table": "reports",
+      "label": "Outcome Reports",
+      "description": "Outcome Reports workspace for Fertility IVF Clinic Operations Suite.",
+      "subfeatures": [
+        "Pregnancy rates",
+        "Cycle conversion",
+        "Lab KPIs"
+      ],
+      "prefix": "OR",
+      "seedValues": [
+        "Pregnancy rates",
+        "Cycle conversion",
+        "Lab KPIs"
+      ]
+    }
+  ],
+  "port": 5601
+}
